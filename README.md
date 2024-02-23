@@ -221,7 +221,7 @@ services:
     environment:
       CONFIG_RELOAD_INTERVAL: 600
     volumes:
-       - config:/home/oxidized/.config/oxidized/
+       - ./config:/home/oxidized/.config/oxidized/
 volumes:
   config:
 ```
